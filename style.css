@@ -1,25 +1,17 @@
-/* =============================================
-   CHALLENGE 1
-   goal: make the boxes sit in a row
-   ============================================= */
+
 .challenge-1 {
   background-color: grey;
   width: 100vw;
-  /* add code below */
-
-
+  display: flex;
 }
 
 
-/* =============================================
-   CHALLENGE 2
-   goal: make the boxes stack in a column
-   ============================================= */
+
 .challenge-2 {
   background-color: grey;
   width: 100vw;
   display: flex;
-  /* add code below*/
+  flex-direction: column;
 
 
 
@@ -27,29 +19,23 @@
 
 
 
-/* =============================================
-   CHALLENGE 3
-   goal: stack the boxes and center them vertically
-   ============================================= */
+
 .challenge-3 {
   background-color: grey;
   width: 100vw;
-  /* add code below */
-
+  flex-direction: column;
+  align-items: center;
 
 }
 
 
-/* =============================================
-   CHALLENGE 4
-   goal: row of boxes centered horizontally and vertically
-   ============================================= */
+
 .challenge-4 {
   background-color: grey;
   width: 100vw;
   height: 400px;
-  /* add code below */
-
+  display: flex;
+  
 
 
 }
